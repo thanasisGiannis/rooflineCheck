@@ -1,0 +1,13 @@
+--------
+Για να κατεβάσετε το Intel Advisor μπείτε στη σελίδα
+https://software.intel.com/advisor/choose-download
+--------
+Για να κατεβάσετε την Intel MKL μπείτε στη σελίδα
+https://software.intel.com/en-us/mkl
+--------
+Για να γίνει σωστό compilation θα πρέπει να εκτελέσετε κάνοντας copy/paste
+τις τρεις εντολές που υπάρχουν στο αρχείο SYSTEMVARS
+-------
+Για το compilation εκτελέστε την εντολή 
+make 1_mmult_serial
+-------
