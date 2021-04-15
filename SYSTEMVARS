@@ -1,0 +1,5 @@
+source /opt/intel/bin/compilervars.sh intel64
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.7:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/:/opt/intel/mkl/lib/intel64/:
+
+export MKLROOT=/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/
