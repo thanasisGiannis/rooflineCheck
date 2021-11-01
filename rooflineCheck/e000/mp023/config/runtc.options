@@ -1,0 +1,10 @@
+-r
+/home/thanasis/rooflineCheck/rooflineCheck/e000/mp023
+--tool=map
+--record-stack-frame
+--sample-size=300000
+--record-mem-allocations
+--app-working-dir=/home/thanasis/rooflineCheck
+--
+/home/thanasis/rooflineCheck/1_mmult_serial
+1000

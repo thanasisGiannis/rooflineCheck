@@ -1,0 +1,15 @@
+-r
+/home/thanasis/rooflineCheck/roofline/e000/hs087
+--mrte-mode=auto
+--follow-child
+--return-app-exitcode
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--stackwalk=offline
+--mrte-type=java,python
+--type=cpu:stack
+--
+/home/thanasis/rooflineCheck/1_mmult_serial
+9000

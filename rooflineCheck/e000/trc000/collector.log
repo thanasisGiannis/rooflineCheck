@@ -1,0 +1,38 @@
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Collection has been started.
+Result file: /home/thanasis/rooflineCheck/rooflineCheck/e000/trc000/trc000.advixe 
+Application exit code: 0 
+Result file: /home/thanasis/rooflineCheck/rooflineCheck/e000/trc000/trc000.advixe 
+Analysis completed
+Finalizing results
+Finalizing the result
+Loading raw data to the database
+Loading 'bandwidth_1635320017.hpc' file
+Loading 'tripcounts_34423_0.tcs' file
+Updating precomputed scalar metrics
+Raw data has been loaded to the database, elapsed time is 0.461 seconds.
+Processing profile metrics and debug information
+Data transformations have been finished, elapsed time is 0.002 seconds.
+Setting data model parameters
+Resolving module symbols
+Symbol resolution has been finished, elapsed time is 0.051 seconds.
+Processing profile metrics and debug information
+Resolving FLOP information
+Processing information for self instruction mix report
+Calculating function call count
+Processing information for light dynamic instruction mix report
+Deferred data transformations have been finished, elapsed time is 4.233 seconds.
+Setting data model parameters
+Data model parameters have been set, elapsed time is 0.018 seconds.
+Precomputing frequently used data
+Precomputing frequently used data
+Updating precomputed scalar metrics
+Precomputing frequently used data has been finished, elapsed time is 0.025 seconds.
+Discarding redundant overtime data
+Saving the result
+Redundant overtime data has been discarded, elapsed time is 0.001 seconds.
+Raw collector data has been discarded, elapsed time is 0.000 seconds.
+Finalizing the result took 4.824 seconds.
+Preparing data for display of survey call tree

@@ -1,0 +1,37 @@
+
+=== Start: [2021/10/27 10:35:07] === 
+Analysis started...
+Result file: /home/thanasis/rooflineCheck/rooflineCheck/e000/mp023/mp023.advixe 
+Found target process /home/thanasis/rooflineCheck/1_mmult_serial (PID = 34502). Analysis started... 
+Loaded module: /home/thanasis/rooflineCheck/1_mmult_serial. 
+Loaded module: /lib64/ld-linux-x86-64.so.2. 
+Loaded module: [vdso]. 
+Loaded module: /opt/intel/oneapi/compiler/2021.4.0/linux/compiler/lib/intel64_lin/libiomp5.so. 
+Loaded module: /lib/x86_64-linux-gnu/libpthread.so.0. 
+Loaded module: /lib/x86_64-linux-gnu/libdl.so.2. 
+Loaded module: /lib/x86_64-linux-gnu/libstdc++.so.6. 
+Loaded module: /lib/x86_64-linux-gnu/libc.so.6. 
+Loaded module: /lib/x86_64-linux-gnu/librt.so.1. 
+Loaded module: /lib/x86_64-linux-gnu/libgcc_s.so.1. 
+Loaded module: /lib/x86_64-linux-gnu/libm.so.6. 
+Loaded module: /opt/intel/oneapi/advisor/2021.4.0/lib64/runtime/libittnotify.so. 
+Loaded module: /opt/intel/oneapi/advisor/2021.4.0/lib64/libpinjitprofiling.so. 
+Unloaded module: /home/thanasis/rooflineCheck/1_mmult_serial. 
+Unloaded module: /lib64/ld-linux-x86-64.so.2. 
+Unloaded module: [vdso]. 
+Unloaded module: /opt/intel/oneapi/compiler/2021.4.0/linux/compiler/lib/intel64_lin/libiomp5.so. 
+Unloaded module: /lib/x86_64-linux-gnu/libpthread.so.0. 
+Unloaded module: /lib/x86_64-linux-gnu/libdl.so.2. 
+Unloaded module: /lib/x86_64-linux-gnu/libstdc++.so.6. 
+Unloaded module: /lib/x86_64-linux-gnu/libc.so.6. 
+Unloaded module: /lib/x86_64-linux-gnu/librt.so.1. 
+Unloaded module: /lib/x86_64-linux-gnu/libgcc_s.so.1. 
+Unloaded module: /lib/x86_64-linux-gnu/libm.so.6. 
+Unloaded module: /opt/intel/oneapi/advisor/2021.4.0/lib64/runtime/libittnotify.so. 
+Unloaded module: /opt/intel/oneapi/advisor/2021.4.0/lib64/libpinjitprofiling.so. 
+Process /home/thanasis/rooflineCheck/1_mmult_serial (PID = 34502) has terminated. 
+Warning: No SITE annotations were encountered, so no stride/alignment data can be reported. 
+Application exit code: 0 
+Result file: /home/thanasis/rooflineCheck/rooflineCheck/e000/mp023/mp023.advixe 
+Analysis completed
+=== End: [2021/10/27 10:35:15] === 

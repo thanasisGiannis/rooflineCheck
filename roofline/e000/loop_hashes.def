@@ -1,0 +1,34 @@
+# hash file version: 1
+860	23	/home/thanasis/rooflineCheck/1_mmult_serial	49288	49336	/home/thanasis/rooflineCheck/mmult_serial.cpp	328	48	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+861	25	/home/thanasis/rooflineCheck/1_mmult_serial	49528	49589	/home/thanasis/rooflineCheck/mmult_serial.cpp	45	61	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+862	28	/home/thanasis/rooflineCheck/1_mmult_serial	49408	49810	/home/thanasis/rooflineCheck/mmult_serial.cpp	43	430	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+863	29	/home/thanasis/rooflineCheck/1_mmult_serial	49976	50029	/home/thanasis/rooflineCheck/mmult_serial.cpp	45	53	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+864	31	/home/thanasis/rooflineCheck/1_mmult_serial	49856	50215	/home/thanasis/rooflineCheck/mmult_serial.cpp	43	386	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+865	32	/home/thanasis/rooflineCheck/1_mmult_serial	58192	58224	/home/thanasis/rooflineCheck/mmult_serial.cpp	275	32	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+866	34	/home/thanasis/rooflineCheck/1_mmult_serial	57960	58359	/home/thanasis/rooflineCheck/mmult_serial.cpp	273	452	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+867	44	/home/thanasis/rooflineCheck/1_mmult_serial	73138	73622,73111		0	484	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+868	46	/home/thanasis/rooflineCheck/1_mmult_serial	73111	73622		0	511	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+869	47	/home/thanasis/rooflineCheck/1_mmult_serial	72508	74251		0	1743	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+870	73	/home/thanasis/rooflineCheck/1_mmult_serial	6977920	6978297		0	377	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+871	77	/home/thanasis/rooflineCheck/1_mmult_serial	6977888	6978670		0	782	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+872	94	/home/thanasis/rooflineCheck/1_mmult_serial	10971200	10971694		0	494	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+873	96	/home/thanasis/rooflineCheck/1_mmult_serial	10970496	10971940		0	1444	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+874	97	/home/thanasis/rooflineCheck/1_mmult_serial	10970448	10972961		0	2513	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+875	98	/home/thanasis/rooflineCheck/1_mmult_serial	10970640	10971133		0	493	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+876	99	/home/thanasis/rooflineCheck/1_mmult_serial	73487	73500		0	13	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+877	100	/home/thanasis/rooflineCheck/1_mmult_serial	73458	73526		0	68	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+878	101	/home/thanasis/rooflineCheck/1_mmult_serial	10955584	10956078		0	494	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+879	103	/home/thanasis/rooflineCheck/1_mmult_serial	10954880	10956454		0	1574	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+880	104	/home/thanasis/rooflineCheck/1_mmult_serial	10954832	10957569		0	2737	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+881	105	/home/thanasis/rooflineCheck/1_mmult_serial	10955024	10955517		0	493	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+882	107	/home/thanasis/rooflineCheck/1_mmult_serial	6958208	6958413		0	205	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+883	109	/home/thanasis/rooflineCheck/1_mmult_serial	6958176	6958702		0	526	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+884	110	/home/thanasis/rooflineCheck/1_mmult_serial	58608	58629	/home/thanasis/rooflineCheck/mmult_serial.cpp	293	21	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+885	111	/home/thanasis/rooflineCheck/1_mmult_serial	58480	58714	/home/thanasis/rooflineCheck/mmult_serial.cpp	291	297	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+886	112	/home/thanasis/rooflineCheck/1_mmult_serial	50456	50508	/home/thanasis/rooflineCheck/mmult_serial.cpp	378	52	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+887	113	/home/thanasis/rooflineCheck/1_mmult_serial	77299	83897		0	6598	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+888	115	/home/thanasis/rooflineCheck/1_mmult_serial	79515	79531		0	16	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+889	116	/home/thanasis/rooflineCheck/1_mmult_serial	10957760	10958129		0	369	9ac197cbfd39e9c704bc16310b3861b9	1	1	0
+890	117	/home/thanasis/rooflineCheck/1_mmult_serial	10957648	10958423		0	775	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+891	118	/home/thanasis/rooflineCheck/1_mmult_serial	73567	73579		0	12	9ac197cbfd39e9c704bc16310b3861b9	0	1	0
+892	145	/home/thanasis/rooflineCheck/1_mmult_serial	49408	49810,50215	/home/thanasis/rooflineCheck/mmult_serial.cpp	43	816	9ac197cbfd39e9c704bc16310b3861b9	0	1	0

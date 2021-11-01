@@ -50,6 +50,7 @@ build_debug: 1_mmult_serial_debug 2_mmult_annotated_debug 3_mmult_omp_debug
 # at the end of the 2 build lines below. Also, ensure the ADVISOR_2018_DIR environment variable is defined.
 1_mmult_serial: mmult_serial.cpp
 	$(CXX) $(CXXFLAGS) mmult_serial.cpp -fopenmp -o 1_mmult_serial -O3 -g $(MKLFLAGS) $(MKLOPTIONS)
+#if 0	
 1_mmult_serial_debug: mmult_serial.cpp
 	$(CXX) $(CXXFLAGS) mmult_serial.cpp -o 1_mmult_serial_debug -fopenmp -O0 -g -D_DEBUG #-I $(ADV_DIR)/include/ 
 2_mmult_annotated: mmult_annotated.cpp
@@ -72,7 +73,7 @@ endif
 	icpc -qopenmp $(CXXFLAGS) mmult_omp.cpp -c -O0 -g -D_DEBUG 
 	icpc mmult_omp.o -o 3_mmult_omp_debug -liomp5 -lpthread -L $(LD_LIBRARY_PATH) 
 	rm -f mmult_omp.o
-
+#endif
 EXECUTABLES =  1_mmult_serial 2_mmult_annotated 3_mmult_omp 1_mmult_serial_debug 2_mmult_annotated_debug 3_mmult_omp_debug
 
 clean::

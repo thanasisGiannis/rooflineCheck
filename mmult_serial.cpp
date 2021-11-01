@@ -62,6 +62,8 @@ void print_array(char * name, int arrSize, double **array)
   }
 }
 
+
+
 // matrix multiply routine
 void multiply_d1(int arrSize, double **aMatrix, double **bMatrix, double **product)
 {
@@ -84,7 +86,8 @@ void multiply_d2(int arrSize, double **aMatrix, double **bMatrix, double **produ
 
 	for(int i=0; i < arrSize; i++){
 		for(int j=0 ; j< arrSize; j++) product[i][j]=0;
-			for(int k=0; k < arrSize; k++){
+		
+		for(int k=0; k < arrSize; k++){
 				double alpha = aMatrix[i][k];
 				for(int j=0; j < arrSize; j++){
 	 				product[i][j] += alpha*bMatrix[k][j];
@@ -98,9 +101,9 @@ void multiply_d2(int arrSize, double **aMatrix, double **bMatrix, double **produ
 void multiply_d3(int arrSize, double **aMatrix, double **bMatrix, double **product)
 {
 	/* blocking */
-	int blockI = 200;
-	int blockJ = 200;
-	int blockK = 100;
+	int blockI = 50;
+	int blockJ = 50;
+	int blockK = 50;
 	double *miniB = (double *)malloc(blockK*blockJ*sizeof(double));
 	double *miniA = (double *)malloc(blockI*blockK*sizeof(double));
 	double *miniproduct = (double *)malloc(blockI*blockJ*sizeof(double));
@@ -150,10 +153,14 @@ void multiply_d3(int arrSize, double **aMatrix, double **bMatrix, double **produ
 void multiply_d4(int arrSize, double **aMatrix, double **bMatrix, double **product)
 {
 	/* blocking */
+	/*
 	int blockI = 200;
 	int blockJ = 200;
 	int blockK = 100;
-
+*/
+	int blockI = 100;
+	int blockJ = 200;
+	int blockK = 100;
 
 	#pragma omp parallel
 	{
@@ -162,6 +169,7 @@ void multiply_d4(int arrSize, double **aMatrix, double **bMatrix, double **produ
 	double *miniproduct = (double *)malloc(blockI*blockJ*sizeof(double));
 	double dot=0.0;
 	double aa=0.0;
+
 
 	#pragma omp for collapse(2)
 	for (int i=0; i<arrSize; i+=blockI)
@@ -197,6 +205,7 @@ void multiply_d4(int arrSize, double **aMatrix, double **bMatrix, double **produ
 				for(int jj=0;jj<blockJ;jj++)
 					product[i+ii][j+jj] = miniproduct[ii*blockJ+jj];
 		}
+		
 
 	free(miniA);
 	free(miniB);
@@ -205,7 +214,8 @@ void multiply_d4(int arrSize, double **aMatrix, double **bMatrix, double **produ
 
 }
 
-void multiply_d5(int arrSize, double **aMatrix, double **bMatrix, double **product)
+void multiply_d5(int arrSize, double **aMatrix, double **bMatrix, double **product,
+ struct timeval *startTime,struct timeval  *endTime)
 {
 	double dot;
 	double miniaa;
@@ -222,6 +232,8 @@ void multiply_d5(int arrSize, double **aMatrix, double **bMatrix, double **produ
 	double dot;
 	int i,j;
 	
+//	gettimeofday(startTime, NULL);
+
 	#pragma omp for collapse(2) 
 	for (i=0; i<arrSize; i+=blockI)
 		for(j=0; j<arrSize; j+=blockJ){
@@ -255,11 +267,15 @@ void multiply_d5(int arrSize, double **aMatrix, double **bMatrix, double **produ
 				for(int jj=0;jj<blockJ;jj++)
 					product[i+ii][j+jj] = miniproduct[ii*blockJ+jj];
 		}
+//	gettimeofday(endTime, NULL);
+	
 	free(miniA);
 	free(miniB);
 	free(miniproduct);
 
 	}
+	
+
 }
 
 void multiply_d6(int arrSize, double **aMatrix, double **bMatrix, double **product,
@@ -340,13 +356,15 @@ int main(int argc, char*argv[])
 
   struct timeval startTime, endTime;
 
-#if 0
+#if 1
   gettimeofday(&startTime, NULL);
 
-  multiply_d5(num, aMatrix, bMatrix, product);
+	multiply_d4(num, aMatrix, bMatrix,product);
+	
 // stop timing the matrix multiply code
   gettimeofday(&endTime, NULL);
 #else
+
 
 	multiply_d6(num, aMatrix, bMatrix, product,
 			 &startTime, &endTime);

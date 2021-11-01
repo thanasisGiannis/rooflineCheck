@@ -1,5 +1,6 @@
-source /opt/intel/bin/compilervars.sh intel64
+source /opt/intel/oneapi/setvars.sh intel64
 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.7:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/:/opt/intel/mkl/lib/intel64/:
+MKLROOT=/opt/intel/oneapi/mkl/latest/
 
-export MKLROOT=/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/
+Για να ανοίξει το advisor-gui:
+/opt/intel/oneapi/advisor/latest/bin64/advisor-gui

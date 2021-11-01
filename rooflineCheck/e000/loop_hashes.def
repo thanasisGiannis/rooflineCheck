@@ -1,0 +1,13 @@
+# hash file version: 3
+148	6	/home/thanasis/rooflineCheck/1_mmult_serial	59248	59275	/home/thanasis/rooflineCheck/mmult_serial.cpp	286	27	ae23ef2d3cc25961544d959df98a406f	1	1	0	0	0
+149	9	/home/thanasis/rooflineCheck/1_mmult_serial	59096	59400	/home/thanasis/rooflineCheck/mmult_serial.cpp	285	294	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0
+150	17	/home/thanasis/rooflineCheck/1_mmult_serial	6988067	6988675		0	608	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0
+151	19	/home/thanasis/rooflineCheck/1_mmult_serial	6987810	6988724		0	914	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0
+152	20	/home/thanasis/rooflineCheck/1_mmult_serial	6987743	6988790,6987723		0	1047	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0
+153	21	/home/thanasis/rooflineCheck/1_mmult_serial	6987723	6988790		0	1067	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0
+154	22	/home/thanasis/rooflineCheck/1_mmult_serial	6987648	6988823		0	1175	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0
+155	28	/home/thanasis/rooflineCheck/1_mmult_serial	10874176	10874670		0	494	ae23ef2d3cc25961544d959df98a406f	1	1	0	0	0
+156	30	/home/thanasis/rooflineCheck/1_mmult_serial	10873472	10875046		0	1574	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0
+157	31	/home/thanasis/rooflineCheck/1_mmult_serial	10873424	10876161		0	2737	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0
+158	32	/home/thanasis/rooflineCheck/1_mmult_serial	59584	59602	/home/thanasis/rooflineCheck/mmult_serial.cpp	304	18	ae23ef2d3cc25961544d959df98a406f	1	1	0	0	0
+159	33	/home/thanasis/rooflineCheck/1_mmult_serial	59544	59640	/home/thanasis/rooflineCheck/mmult_serial.cpp	303	120	ae23ef2d3cc25961544d959df98a406f	0	1	0	0	0

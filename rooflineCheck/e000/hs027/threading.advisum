@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="[MKL BLAS"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="6.213378E-02"
+           trip_counts="6"
+           func_instance="19"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="[MKL BLAS"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="6.213378E-02"
+           trip_counts="4"
+           func_instance="17"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="[MKL BLAS"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="6.213378E-02"
+           trip_counts="6"
+           func_instance="20"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="[MKL BLAS"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="6.213378E-02"
+           trip_counts="1"
+           func_instance="21"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="[MKL BLAS"
+           is_vectorized="1"
+           self_time="6.213378E-02"
+           total_time="6.213378E-02"
+           trip_counts="29"
+           func_instance="28"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

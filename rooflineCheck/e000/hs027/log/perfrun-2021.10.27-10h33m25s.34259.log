@@ -1,0 +1,93 @@
+12 [140116107320256] INFO perfrun.launcher <> - Launcher main begin
+13 [140116107320256] INFO perfrun.launcher <> - MessageCatalogInit finished
+13 [140116107320256] INFO perfrun.launcher <> - Launcher instance created
+13 [140116107320256] INFO perfrun.launcher <> - argc = 7; cmdline = /opt/intel/oneapi/advisor/2021.4.0/bin64/advixe-runss --ui-output-format xml --ui-output-fd 77 --option-file /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/config/runss.options 
+69 [140116107320256] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+69 [140116107320256] INFO perfrun.launcher <> - create file finder object
+69 [140116107320256] INFO perfrun.launcher <> - create a result directory: pattern = /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027 pid = 4294967295
+73 [140116107320256] INFO perfrun.sdk <> - checked that the directory /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027 is a local directory
+73 [140116107320256] INFO perfrun.sdk <> - the directory /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027 is a local directory with FS type ID 61267
+73 [140116107320256] INFO perfrun.launcher <> - create data directory = /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/data.0
+73 [140116107320256] INFO perfrun.launcher <> - Creating the master collection flag
+103 [140116107320256] INFO perfrun.launcher <> - Done creating the master collection flag
+103 [140116097795840] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+103 [140116097795840] INFO perfrun.sdk <> - Allocating TMU :/home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/data.0/systemcollector-34259-feta.sc
+103 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+103 [140116097795840] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+103 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+103 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+103 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+103 [140116097795840] INFO perfrun.mrte <> - system-wide mode is 0
+103 [140116097795840] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+114 [140116097795840] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/data.0
+114 [140116097795840] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=feta
+114 [140116097795840] INFO perfrun.mrte <> - Data directory: /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/data.0
+114 [140116097795840] INFO perfrun.mrte <> - Mrte plugin is initialized
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.tpss <> - initialize tpss controller
+114 [140116097795840] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+114 [140116097795840] INFO perfrun.tpss <> - default obj-size-min=1024
+114 [140116097795840] INFO perfrun.tpss <> - default hash-table-size=0
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116097795840] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+114 [140116107320256] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /opt/intel/oneapi/advisor/2021.4.0/lib32/runtime:/opt/intel/oneapi/advisor/2021.4.0/lib64/runtime:/opt/intel/oneapi/tbb/2021.4.0/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/mkl/2021.4.0/lib/intel64:/opt/intel/oneapi/compiler/2021.4.0/linux/lib:/opt/intel/oneapi/compiler/2021.4.0/linux/lib/x64:/opt/intel/oneapi/compiler/2021.4.0/linux/lib/emu:/opt/intel/oneapi/compiler/2021.4.0/linux/compiler/lib/intel64_lin
+114 [140116107320256] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /opt/intel/oneapi/advisor/2021.4.0/lib32/runtime/libittnotify_collector.so
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /opt/intel/oneapi/advisor/2021.4.0/lib64/runtime/libittnotify_collector.so
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /opt/intel/oneapi/advisor/2021.4.0/lib32/runtime/libittnotify_collector.so
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /opt/intel/oneapi/advisor/2021.4.0/lib64/runtime/libittnotify_collector.so
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = libittnotify_collector.so
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /opt/intel/oneapi/advisor/2021.4.0/lib32/runtime/libittnotify_collector.so:/opt/intel/oneapi/advisor/2021.4.0/lib64/runtime/libittnotify_collector.so
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/data.0
+115 [140116107320256] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = feta
+115 [140116107320256] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+115 [140116107320256] INFO perfrun.launcher <> - Launcher: command line to start before modification = /home/thanasis/rooflineCheck/1_mmult_serial 1000
+115 [140116107320256] INFO perfrun.launcher <> - Launcher: command line to start after modification = /opt/intel/oneapi/advisor/2021.4.0/bin64/pin -error_file /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /opt/intel/oneapi/advisor/2021.4.0/lib64/libtpsstool.so -t /opt/intel/oneapi/advisor/2021.4.0/lib32/libtpsstool.so -server_name tpss_ipc.34259 -prd_dir /opt/intel/oneapi/advisor/2021.4.0 -- /home/thanasis/rooflineCheck/1_mmult_serial 1000
+115 [140116107320256] INFO perfrun.launcher <> - ProcessCreator object was created
+116 [140116107320256] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+116 [140116097795840] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:797
+116 [140116097795840] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:810
+117 [140116097795840] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:197
+121 [140116097795840] INFO perfrun.vdso <> - Helper runtool '/opt/intel/oneapi/advisor/2021.4.0/bin32/advixe-runss -dump-vdso -r /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027 --tmp-dir /tmp/advixe-tmp-thanasis' returned 1
+226 [140116097795840] INFO perfrun.vdso <> - Helper runtool '/opt/intel/oneapi/advisor/2021.4.0/bin64/advixe-runss -dump-vdso -r /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027 --tmp-dir /tmp/advixe-tmp-thanasis' returned 0
+226 [140116097795840] INFO perfrun.itt <> - start itt controller for pid #34271
+226 [140116097795840] INFO perfrun.tpss <> - start tpss controller for pid #34271
+277 [140116107320256] INFO perfrun.launcher <> - Launcher: all plugins were started
+277 [140116107320256] INFO perfrun.launcher <> - DirectoryMonitor object was created
+277 [140116107320256] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+277 [140116107320256] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+277 [140116107320256] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+277 [140116107320256] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+323 [140116107320256] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+597 [140116107320256] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+602 [140116097795840] INFO perfrun.itt <> - stop itt controller
+602 [140116097795840] INFO perfrun.itt <> - detach itt controller
+602 [140116097795840] INFO perfrun.tpss <> - stop tpss controller
+602 [140116097795840] INFO perfrun.sdk <> - De-allocating TMU: /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/data.0/systemcollector-34259-feta.sc
+602 [140116097795840] INFO perfrun.system <> - closed the system trace file: /home/thanasis/rooflineCheck/rooflineCheck/e000/hs027/data.0/systemcollector-34259-feta.sc
+602 [140116107320256] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+602 [140116107320256] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+602 [140116107320256] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+602 [140116107320256] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+602 [140116107320256] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:212
+603 [140116107320256] INFO perfrun.launcher <> - Application exit code: 0
+603 [140116107320256] INFO perfrun.launcher <> - Exit code: 0

@@ -1,0 +1,10 @@
+
+=== Start: [2020/11/04 18:26:20] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: /home/thanasis/rooflineCheck/roofline/e000/trc000/trc000.advixe 
+Application exit code: 127 
+Result file: /home/thanasis/rooflineCheck/roofline/e000/trc000/trc000.advixe 
+Analysis completed
+=== End: [2020/11/04 18:26:34] === 
